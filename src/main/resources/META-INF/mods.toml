@@ -1,0 +1,22 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]] #mandatory
+modId="energisticsextras"
+version="${file.jarVersion}"
+displayName="Energistics Extras"
+credits="Credits go to original mod authors of AE2Stuff, Extra Cells and Applied Energistics 2"
+authors="LegionModding"
+description='''A unofficial port of AE2Stuff and Extra Cells to 1.16.5 and beyond!'''
+[[dependencies.energisticsextras]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.energisticsextras]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
