@@ -18,6 +18,9 @@ public class EnergisticsExtras
 
     public EnergisticsExtras()
     {
+        BlockRegistry.registerBlocks();
+        ItemRegistry.registerItems();
+
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::commonSetup);
 
