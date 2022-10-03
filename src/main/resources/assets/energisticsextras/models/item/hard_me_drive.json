@@ -1,0 +1,6 @@
+{
+  "parent": "energisticsextras:block/hard_drive_base",
+  "textures": {
+    "front": "energisticsextras:blocks/hard_me_drive_flat"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "top": "energisticsextras:blocks/encoder/top_off",
+      "bottom": "energisticsextras:blocks/encoder/side",
+      "side": "energisticsextras:blocks/encoder/side"
+    },
+    "model": "minecraft:cube_bottom_top"
+  },
+  "variants": {
+    "active": {
+      "true": {
+        "textures": {
+          "top": "energisticsextras:blocks/encoder/top_on"
+        }
+      },
+      "false": {}
+    },
+    "facing": {
+      "down": {"x": 90},
+      "up": {"x": 270},
+      "north": {},
+      "south": {"y": 180},
+      "west": {"y": 270},
+      "east": {"y": 90}
+    },
+    "inventory": {
+      "transform": "forge:default-block"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "energisticsextras:block/fluid_filler"
+    }
+  }
+}

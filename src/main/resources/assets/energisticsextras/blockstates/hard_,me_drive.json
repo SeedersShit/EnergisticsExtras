@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "energisticsextras:builtin/hard_drive"
+  },
+  "variants": {
+    "facing=north": {"model": "energisticsextras:builtin/hard_drive" },
+    "facing=south": { "model": "energisticsextras:builtin/hard_drive","y": 180 },
+    "facing=west":  { "model": "energisticsextras:builtin/hard_drive","y": 270 },
+    "facing=east":  { "model": "energisticsextras:builtin/hard_drive","y": 90 }
+  }
+}

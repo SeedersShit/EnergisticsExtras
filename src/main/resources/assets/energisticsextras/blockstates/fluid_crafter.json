@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "energisticsextras:fluid_crafter" }
+    "": { "model": "energisticsextras:block/fluid_crafter" }
   }
 }

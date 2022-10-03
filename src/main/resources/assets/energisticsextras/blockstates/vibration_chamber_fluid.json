@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,state=false": { "model": "energisticsextras:block/vibration_chamber_fluid" },
+    "facing=south,state=false": { "model": "energisticsextras:block/vibration_chamber_fluid", "y": 180 },
+    "facing=west,state=false":  { "model": "energisticsextras:block/vibration_chamber_fluid", "y": 270 },
+    "facing=east,state=false":  { "model": "energisticsextras:block/vibration_chamber_fluid", "y": 90 },
+    "facing=north,state=true": { "model": "energisticsextras:block/vibration_chamber_fluid_on" },
+    "facing=south,state=true": { "model": "energisticsextras:block/vibration_chamber_fluid_on", "y": 180 },
+    "facing=west,state=true":  { "model": "energisticsextras:block/vibration_chamber_fluid_on", "y": 270 },
+    "facing=east,state=true":  { "model": "energisticsextras:block/vibration_chamber_fluid_on", "y": 90 }
+  }
+}
