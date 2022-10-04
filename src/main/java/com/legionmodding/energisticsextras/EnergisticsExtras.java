@@ -2,6 +2,7 @@ package com.legionmodding.energisticsextras;
 
 import com.legionmodding.energisticsextras.handler.registry.BlockRegistry;
 import com.legionmodding.energisticsextras.handler.registry.ItemRegistry;
+import com.legionmodding.energisticsextras.handler.registry.TileRegistry;
 import com.legionmodding.energisticsextras.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
@@ -20,6 +21,7 @@ public class EnergisticsExtras
     {
         BlockRegistry.registerBlocks();
         ItemRegistry.registerItems();
+        TileRegistry.registerTiles();
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::commonSetup);
