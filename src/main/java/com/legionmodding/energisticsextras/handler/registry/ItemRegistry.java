@@ -42,7 +42,7 @@ public class ItemRegistry
     private static final RegistryObject<Item> FOUR_STORAGE_COMPONENT_GAS = ITEMS.register("4k_storage_component_gas", ItemComponentBase::new);
     private static final RegistryObject<Item> ONE_TWENTY_FOUR_STORAGE_COMPONENT = ITEMS.register("1024k_storage_component", ItemComponentBase::new);
     private static final RegistryObject<Item> ONE_TWENTY_FOUR_STORAGE_COMPONENT_FLUID = ITEMS.register("1024k_storage_component_fluid", ItemComponentBase::new);
-    private static final RegistryObject<Item> ONE_TWENTY_FOUR_STORAGE_COMPONENT_GAS = ITEMS.register("1024_storage_component_gas", ItemComponentBase::new);
+    private static final RegistryObject<Item> ONE_TWENTY_FOUR_STORAGE_COMPONENT_GAS = ITEMS.register("1024k_storage_component_gas", ItemComponentBase::new);
     private static final RegistryObject<Item> FOUR_NINETY_SIX_STORAGE_COMPONENT = ITEMS.register("4096k_storage_component", ItemComponentBase::new);
     private static final RegistryObject<Item> FOUR_NINETY_SIX_STORAGE_COMPONENT_FLUID = ITEMS.register("4096k_storage_component_fluid", ItemComponentBase::new);
     private static final RegistryObject<Item> FOUR_NINETY_SIX_STORAGE_COMPONENT_GAS = ITEMS.register("4096k_storage_component_gas", ItemComponentBase::new);
