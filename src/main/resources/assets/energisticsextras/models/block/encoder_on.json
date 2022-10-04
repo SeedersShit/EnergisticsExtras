@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "up": "energisticsextras:blocks/encoder_top_on",
+    "down": "energisticsextras:blocks/encoder_side",
+    "front": "energisticsextras:blocks/encoder_side",
+    "side": "energisticsextras:blocks/encoder_side"
+  }
+}
