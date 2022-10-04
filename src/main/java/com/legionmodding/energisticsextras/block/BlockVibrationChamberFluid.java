@@ -34,7 +34,7 @@ public class BlockVibrationChamberFluid extends Block
     @Override
     public BlockState getStateForPlacement(BlockItemUseContext context)
     {
-        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
+        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite()).setValue(STATE, false);
     }
 
     @Override

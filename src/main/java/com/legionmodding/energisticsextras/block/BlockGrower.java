@@ -5,6 +5,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.state.BooleanProperty;
+import net.minecraft.state.Property;
 import net.minecraft.state.StateContainer;
 import net.minecraft.util.Direction;
 
@@ -23,5 +24,12 @@ public class BlockGrower extends Block
     {
         super.createBlockStateDefinition(builder);
         builder.add(ACTIVE);
+    }
+
+    @Nullable
+    @Override
+    public BlockState getStateForPlacement(BlockItemUseContext context)
+    {
+        return this.defaultBlockState().setValue(ACTIVE, false);
     }
 }
