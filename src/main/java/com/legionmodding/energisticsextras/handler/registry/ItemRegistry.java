@@ -54,6 +54,10 @@ public class ItemRegistry
 
     /* Storage Cells */
 
+    private static final RegistryObject<Item> ONE_STORAGE_CELL = ITEMS.register("1k_storage_cell_gas", ItemStorageBase::new);
+    private static final RegistryObject<Item> FOUR_STORAGE_CELL = ITEMS.register("4k_storage_cell_gas", ItemStorageBase::new);
+    private static final RegistryObject<Item> SIXTEEN_STORAGE_CELL = ITEMS.register("16k_storage_cell_gas", ItemStorageBase::new);
+    private static final RegistryObject<Item> SIXTY_FOUR_STORAGE_CELL = ITEMS.register("64k_storage_cell_gas", ItemStorageBase::new);
     private static final RegistryObject<Item> TWO_FIFTY_SIX_STORAGE_CELL = ITEMS.register("256k_storage_cell", ItemStorageBase::new);
     private static final RegistryObject<Item> TWO_FIFTY_SIX_STORAGE_CELL_FLUID = ITEMS.register("256k_storage_cell_fluid", ItemStorageBase::new);
     private static final RegistryObject<Item> TWO_FIFTY_SIX_STORAGE_CELL_GAS = ITEMS.register("256k_storage_cell_gas", ItemStorageBase::new);
