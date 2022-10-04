@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "active=true": { "model": "energisticsextras:block/inscriber_active" },
+    "active=false": { "model": "energisticsextras:block/inscriber_inactive" }
+  }
+}

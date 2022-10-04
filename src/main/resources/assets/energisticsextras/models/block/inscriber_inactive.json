@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "up": "energisticsextras:blocks/inscriber_top",
+    "front": "energisticsextras:blocks/inscriber_side_off",
+    "side": "energisticsextras:blocks/inscriber_side_off"
+  }
+}
