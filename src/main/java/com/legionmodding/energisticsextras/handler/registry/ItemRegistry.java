@@ -21,7 +21,7 @@ public class ItemRegistry
     private static final RegistryObject<Item> INSCRIBER = ITEMS.register("inscriber", () -> new BlockItem(BlockRegistry.INSCRIBER.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
     private static final RegistryObject<Item> VIBRATION_CHAMBER_FLUID = ITEMS.register("vibration_chamber_fluid", () -> new BlockItem(BlockRegistry.VIBRATION_CHAMBER_FLUID.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
     private static final RegistryObject<Item> WALRUS = ITEMS.register("walrus", () -> new BlockItem(BlockRegistry.WALRUS.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
-    private static final RegistryObject<Item> WIRELESS = ITEMS.register("wireless", () -> new BlockItem(BlockRegistry.ENCODER.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
+    private static final RegistryObject<Item> WIRELESS = ITEMS.register("wireless", () -> new BlockItem(BlockRegistry.WIRELESS.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
 
     public static void registerItems()
     {
