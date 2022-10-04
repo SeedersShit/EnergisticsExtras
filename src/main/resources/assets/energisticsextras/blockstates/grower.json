@@ -1,22 +1,10 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "textures": {
-      "all": "energisticsextras:blocks/grower/main_off"
-    },
-    "model": "minecraft:cube_all"
-  },
   "variants": {
-    "active": {
-      "true": {
-        "textures": {
-          "all": "energisticsextras:blocks/grower/main_on"
-        }
-      },
-      "false": {}
+    "active=true": {
+      "model": "energisticsextras:block/grower_active"
     },
-    "inventory": {
-      "transform": "forge:default-block"
+    "active=false": {
+      "model": "energisticsextras:block/grower_inactive"
     }
   }
 }
