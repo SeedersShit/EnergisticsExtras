@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "energisticsextras:items/storage/cells/16384k_storage_cell_gas"
+  }
+}

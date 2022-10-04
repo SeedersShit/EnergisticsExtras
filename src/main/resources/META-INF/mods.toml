@@ -20,3 +20,9 @@ description='''A unofficial port of AE2Stuff and Extra Cells to 1.16.5 and beyon
     versionRange="[1.16.5,1.17)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.energisticsextras]]
+  modId="appliedenergistics2"
+  mandatory=false
+  versionRange="[8.4.7,)"
+  ordering="NONE"
+  side="BOTH"

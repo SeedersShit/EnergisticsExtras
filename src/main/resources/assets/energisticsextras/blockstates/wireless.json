@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "active=false": { "model": "energisticsextras:block/wireless_inactive" },
+    "active=true": { "model": "energisticsextras:block/wireless_active" }
+  }
+}

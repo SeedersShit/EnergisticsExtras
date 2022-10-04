@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "energisticsextras:blocks/wireless_top_on",
+    "bottom": "energisticsextras:blocks/wireless_top_on",
+    "side": "energisticsextras:blocks/wireless_side_on"
+  }
+}
