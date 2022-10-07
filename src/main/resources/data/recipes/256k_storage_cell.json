@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "geg",
+    "clc",
+    "gcg"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "e": {
+      "item": "appliedenergistics2:engineering_processor"
+    },
+    "c": {
+      "item": "energisticsextras:256k_storage_component"
+    },
+    "l": {
+      "item": "appliedenergistics2:logic_processor"
+    }
+  },
+  "result": {
+    "item": "energisticsextras:256k_storage_cell"
+  }
+}

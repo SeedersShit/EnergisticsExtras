@@ -62,8 +62,21 @@ minecraft {
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
+repositories {
+    maven {
+        name "Modmaven"
+        url "https://modmaven.dev/"
+
+        content {
+            includeGroup 'appeng'
+        }
+    }
+}
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.39'
+    compileOnly(fg.deobf("appeng:appliedenergistics2:8.4.7:api"))
+    implementation group: 'javax.vecmath', name: 'vecmath', version: '1.5.2'
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..
