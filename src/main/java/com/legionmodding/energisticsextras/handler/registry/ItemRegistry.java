@@ -24,10 +24,10 @@ public class ItemRegistry
     private static final RegistryObject<Item> ME_BLOCK_CONTAINER = ITEMS.register("me_block_container", ItemNetwork::new);
     private static final RegistryObject<Item> ME_FLUID_PATTERN = ITEMS.register("me_fluid_pattern", ItemNetwork::new);
     private static final RegistryObject<Item> ME_GAS_PATTERN = ITEMS.register("me_gas_pattern", ItemNetwork::new);
-    private static final RegistryObject<Item> ME_WIRELESS_TERMINAL = ITEMS.register("me_wireless_terminal", ItemNetwork::new);
-    private static final RegistryObject<Item> ME_WIRELESS_TERMINAL_FLUID = ITEMS.register("me_wireless_terminal_fluid", ItemNetwork::new);
-    private static final RegistryObject<Item> ME_WIRELESS_TERMINAL_GAS = ITEMS.register("me_wireless_terminal_gas", ItemNetwork::new);
-    private static final RegistryObject<Item> ME_WIRELESS_TERMINAL_UNIVERSAL = ITEMS.register("me_wireless_terminal_universal", ItemNetwork::new);
+    private static final RegistryObject<Item> ME_WIRELESS_TERMINAL = ITEMS.register("me_wireless_terminal", ItemWirelessTerminal::new);
+    private static final RegistryObject<Item> ME_WIRELESS_TERMINAL_FLUID = ITEMS.register("me_wireless_terminal_fluid", ItemFluidTerminal::new);
+    private static final RegistryObject<Item> ME_WIRELESS_TERMINAL_GAS = ITEMS.register("me_wireless_terminal_gas", ItemGasTerminal::new);
+    private static final RegistryObject<Item> ME_WIRELESS_TERMINAL_UNIVERSAL = ITEMS.register("me_wireless_terminal_universal", ItemUniversalTerminal::new);
     private static final RegistryObject<Item> ME_PORTABLE_FLUID_STORAGE = ITEMS.register("me_portable_fluid_storage", ItemNetwork::new);
     private static final RegistryObject<Item> ME_PORTABLE_GAS_STORAGE = ITEMS.register("me_portable_gas_storage", ItemNetwork::new);
     private static final RegistryObject<Item> NETWORK_TOOL = ITEMS.register("network_visualisation_tool", ItemNetwork::new);
